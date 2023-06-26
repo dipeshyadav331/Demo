@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 5px;
+}
+
+.circle{
+    height: 18px;
+    width: 18px;
+    background-color: rgb(92, 84, 84);
+    border-radius: 50%;
+    animation: leetcode-animation 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes leetcode-animation {
+    0%{
+        transform: scale(1);
+    }
+    
+    100%{
+        transform:scale(0.05);
+    }
+}
