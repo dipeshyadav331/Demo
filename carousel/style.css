@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:white
+}
+
+img{
+    max-width: 550px;
+    max-height: 400px;
+}
+
+.container{
+    display : flex;
+    margin-top: 150px;
+    margin-left: 0;
+    align-items: center;
+    align-content: center;
+    width : 550px;
+    height: 400px;
+    background-color: wheat;
+    background-color: teal;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-overlay1{
+    position: absolute;
+    transition: 1s ease-in-out;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.text-overlay2{
+    margin-left: 540px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.text-overlay1:hover{
+    transform: scale(2);
+}
+
+.text-overlay2:hover{
+    transform: scale(2);
+}
+
+.image-box{
+    display: flex;
+    transition: transform 0.5s ease;
+}
