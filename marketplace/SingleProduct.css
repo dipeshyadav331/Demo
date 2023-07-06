@@ -1,0 +1,42 @@
+.griid{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 10px; 
+}
+
+img{
+    height: 200px;
+    width: 430px;
+    transition: 1s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.01);
+}
+
+.singleItem{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.buton{
+    background-color: pink;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap : 10px;
+    color: black;
+}
+
+.rm{
+    font-size: 2rem;
+    width: 30px;
+    border-radius: 30%;
+    background-color: rgb(26, 205, 62);
+    cursor: pointer;
+}
+
+.curs{
+    cursor: copy;
+}
